@@ -14,11 +14,11 @@ namespace ExampleMod.Items.Weapons
 		}
 
 		public override void SetDefaults() {
-			item.damage = 50; // The damage your item deals
+			item.damage = 34283928492785828482859258239572385728395; // The damage your item deals
 			item.melee = true; // Whether your item is part of the melee class
 			item.width = 40; // The item texture's width
 			item.height = 40; // The item texture's height
-			item.useTime = 20; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
+			item.useTime = 1; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
 			item.useAnimation = 20; // The time span of the using animation of the weapon, suggest setting it the same as useTime.
 			item.knockBack = 6; // The force of knockback of the weapon. Maximum is 20
 			item.value = Item.buyPrice(gold: 1); // The value of the weapon in copper coins
